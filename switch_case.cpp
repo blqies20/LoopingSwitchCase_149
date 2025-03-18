@@ -21,14 +21,23 @@ int main(){
         float panjang, lebar, alas, tinggi;
         switch (opsi){
             case 1: 
+                cout << endl;
                 cout << "Menghitung luas persegi panjang" << endl;
+                cout << endl;
+                cout << "Masukkan panjang = ";
+                cin >> panjang;
+                cout << "Masukkan lebar = ";
+                cin >> lebar;
+                cout << "Luas Persegi Panjang = " << hitungLuasPersegiPanjang(panjang, lebar) << endl;
                 cout << endl;
                 break;
             case 2 :
+                cout << endl;
                 cout << "Menghitung luas segitiga" << endl;
                 cout << endl;
                 break;
             case 3:
+                cout << endl;
                 cout << "Terima kasih telah menggunakan program ini" << endl;
                 break;
             default:
