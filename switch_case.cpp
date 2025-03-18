@@ -1,6 +1,13 @@
 #include <iostream>
 using namespace std;
 
+float hitungLuasPersegiPanjang(float p, float l){
+    return p * l;
+}
+float hitungLuasSegitiga(float a, float t){
+    return 0.5 * a * t;
+}
+
 int main(){
     int opsi;
     do
@@ -11,6 +18,7 @@ int main(){
         cout << "3. Keluar" << endl;
         cout << "Pilih menu (1/2/3): ";
         cin >> opsi;
+        float panjang, lebar, alas, tinggi;
         switch (opsi){
             case 1: 
                 cout << "Menghitung luas persegi panjang" << endl;
