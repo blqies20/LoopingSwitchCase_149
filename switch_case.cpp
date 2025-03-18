@@ -35,13 +35,22 @@ int main(){
                 cout << endl;
                 cout << "Menghitung luas segitiga" << endl;
                 cout << endl;
+                cout << "Masukkan alas = ";
+                cin >> panjang;
+                cout << "Masukkan tinggi = ";
+                cin >> lebar;
+                cout << "Luas Segitiga = " << hitungLuasSegitiga(alas, tinggi) << endl;
+                cout << endl;
                 break;
             case 3:
                 cout << endl;
                 cout << "Terima kasih telah menggunakan program ini" << endl;
+                cout << endl;
                 break;
             default:
+                cout << endl;
                 cout << "Pilihan tidak ada dalam menu" << endl;
+                cout << endl;
                 break;
         }
     } while (opsi != 3);   
